@@ -10,6 +10,9 @@ on:
       - 'LICENSE'
       - '.java-version'
       - 'icons/**'
+
+  workflow_dispatch：
+
   schedule:
     - cron: "0 7 */3 * *"
 
